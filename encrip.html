@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Encriptador de Texto</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width = device-width">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<main>
+			<h1><img id="logo" src="imagenes/logoAlura.png"></h1>
+
+			<section class="bloqueEncrip">
+
+				<textarea name="area-texto" id="area-texto" placeholder="Ingrese un texto"></textarea>
+
+				<div class="divBotones">
+					<input type="button" name="botonEncriptador" value="Encriptar" id="botonEncriptador" class="boton">
+					<input type="button" name="botonDesencriptador" value="Desencriptar" id="botonDesencriptador" class="boton">
+				</div>
+
+				<div class="bloqueLeyenda">
+					<img src="imagenes/vector.png" class="imgVector"><p class="leyenda">Solo letras minúsculas y sin acentos, no use numeros ni caracteres especiales</p>
+				</div>
+
+			</section>
+
+			<section class="bloqueResult">
+
+				<textarea name="area-encrip" id="area-encrip" placeholder="Resultado"></textarea>
+				<input type="button" name="botonCopiar" value="Copiar texto" id="botonCopiar" class="boton">
+
+			</section>
+
+		</main>
+		<script src="jsEncrip.js"></script>
+	</body>
+</html>
