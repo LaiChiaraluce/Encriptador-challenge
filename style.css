@@ -104,6 +104,7 @@ body{
 	.leyenda{
 		font-size: 22px;
 	}
+	
 	#area-encrip{
 		margin: 30px auto;
 		width: 90%;
@@ -119,22 +120,30 @@ body{
 		margin: 20px 0px 10px 40px; 
 	}
 	#area-texto{
-		height: 700px;
+		margin-top: 0px;
+		height: 300px;
 		font-size: 35px;
 	}
 	.boton{
-		height: 80px;
-		font-size: 35px;
+		height: 50px;
+		font-size: 20px;
 	}
 	#botonEncriptador, #botonDesncriptador{
 		margin-left: 20px;
 	}
-	.imgVector{
+	.bloqueLeyenda{
 		height: 50px;
+		display: flex;
+		justify-content: start;
+		align-items: center;
+		margin-top: 10px;
+	}
+	.imgVector{
+		height: 30px;
 		margin-right: 6px;
 	}
 	.leyenda{
-		font-size: 34px;
+		font-size: 20px;
 	}
 	#area-encrip{
 		height: 300px;
@@ -196,8 +205,8 @@ body{
 
 @media screen and (min-width: 1440px){
 	#logo{
-		height: 100px;
-		margin: 50px 0px 10px 50px;
+		height: 80px;
+		margin: 50px 0px 0px 50px;
 	}
 	.bloqueEncrip{
 		display: inline-block;
@@ -205,6 +214,10 @@ body{
 	}
 	.divBotones{
 		display: block;
+	}
+	.boton{
+		height: 60px;
+		font-size: 20px;
 	}
 	#botonEncriptador{
 		margin-left: 15px;
@@ -215,20 +228,29 @@ body{
 		width: 35%;
 	}
 	#area-texto{
-		font-size: 45px;
+		margin-top: 0px;
+		height: 300px;
+		font-size: 25px;
 	}
 	#area-encrip{
+		margin-top: 0px;
 		width: 100%;
-		height: 1000px;
-		font-size: 45px;
+		height: 300px;
+		font-size: 25px;
 	}
 	.bloqueLeyenda{
 		position: relative;
 		margin-top: 60px;
 		left: 50px;
 	}
+	.leyenda{
+		font-size: 30px;
+		text-align: start;
+		
+	}
 	.imgVector{
 		height: 50px;
+		margin-right: 40px;
 	}
 
 
