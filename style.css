@@ -86,12 +86,12 @@ body{
 	#area-texto{
 		margin: 40px auto;
 		width: 90%;
-		height: 500px;
-		font-size: 30px;
+		height: 200px;
+		font-size: 20px;
 	}
 	.boton{
-		height: 60px;
-		font-size: 30px;
+		height: 40px;
+		font-size: 15px;
 	}
 	#botonEncriptador, #botonDesencriptador{
 		width: 90%;
@@ -108,7 +108,7 @@ body{
 		margin: 30px auto;
 		width: 90%;
 		height: 200px;
-		font-size: 30px;
+		font-size: 20px;
 	}
 	
 }
